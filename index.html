@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+           <header>
+            <h1></h1>
+           </header>
+           <section>
+                <div>
+                   <p>Ano de Nascimento:
+                   <input type="number" name="ano" id="ano" min="0"></p>
+                    <P>Sexo:
+                        <input type="radio" name="sex" id="masc" checked>
+                        <label for="sex">Masculino</label>
+
+                        <input type="radio" name="sex" id="fem" checked>
+                        <label for="fem">Femino</label>
+                        
+                    </P>
+                    <p id="but">
+                        <input type="button" value="verificar" onclick="verificar()">
+                    </p>
+
+                </div>
+                <div id="res">
+                        
+                   
+                </div>
+           </section>
+           <footer>
+            <p>&copy; Brayan Herbert</p>
+           </footer>
+    <script src="script.js"></script>
+</body>
+</html>
